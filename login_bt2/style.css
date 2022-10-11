@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 240px;
+    min-height: 200px;
+    background-color: #B6E0FF;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.input__field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input__field+.input__field {
+    margin-top: 16px;
+}
+
+.input__field input[type="text"],
+.input__field input[type="password"] {
+    height: 24px;
+    outline: none;
+    margin-top: 4px;
+}
+
+.input__field input[type="submit"] {
+    width: 50%;
+}
+
+.flex-row {
+    flex-direction: row;
+}

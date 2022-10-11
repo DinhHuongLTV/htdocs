@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+form {
+    min-width: 300px;
+    max-width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 12px;
+}
+
+.input__field {
+    display: flex;
+}
+
+.input__field+.input__field {
+    margin-top: 16px;
+}
+
+.input__field label {
+    min-width: 100px;
+}
